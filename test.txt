@@ -1,1 +1,14 @@
 this is my first commit!
+
+#配置钥匙
+cd ~/.ssh
+ssh-keygen -t rsa -C “qilongzzzzz@gmail.com”
+#配置邮箱用户名
+git config --global user.name “qilongzz”
+git config --global user.email “qilongzzzzz@gmail.com”
+#拉取代码 ssh方式
+git clone git@github.com:qilongzz/test-git-hub.git
+#测试提交
+git add test.txt
+git commit -m “test commit!”
+git push origin main
