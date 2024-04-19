@@ -13,3 +13,5 @@ git clone git@github.com:qilongzz/test-git-hub.git
 git add test.txt
 git commit -m “test commit!”
 git push origin main
+#重新拉取
+git pull
