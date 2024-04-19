@@ -3,6 +3,7 @@ this is my first commit!
 #配置钥匙
 cd ~/.ssh
 ssh-keygen -t rsa -C “qilongzzzzz@gmail.com”
+ssh -T git@github.com
 #配置邮箱用户名
 git config --global user.name “qilongzz”
 git config --global user.email “qilongzzzzz@gmail.com”
